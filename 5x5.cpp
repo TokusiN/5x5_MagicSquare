@@ -105,12 +105,12 @@ inline void func2(int a1, int* num, int* line)
 				if(b1 > b4) continue;
 				num[b3] = 8;
 				num[b4] = 9;
-				line[3]-=b3;
+//				line[3]-=b3;
 				line[6]-=b3;
 				line[4]-=b4;
 				line[5]-=b4;
 				func3(num, line);
-				line[3]+=b3;
+//				line[3]+=b3;
 				line[6]+=b3;
 				line[4]+=b4;
 				line[5]+=b4;
@@ -243,12 +243,12 @@ inline void func7(int* num, int* line)
 		num[a] = 20;
 		num[b] = 21;
 		line[1]-=a;
-		line[3]-=b;
+//		line[3]-=b;
 		func8(num, line);
 		num[a] = 0;
 		num[b] = 0;
 		line[1]+=a;
-		line[3]+=b;
+//		line[3]+=b;
 	}
 }
 
